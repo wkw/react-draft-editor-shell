@@ -1,4 +1,12 @@
-# React Redux Starter Kit
+# Draft-JS wysiwyg Exploration
+
+This repo combines [draft-wysiwyg](https://github.com/bkniffler/draft-wysiwyg) and [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit) -- [@ commit 165535c](https://github.com/davezuko/react-redux-starter-kit/commit/165535c9f2228106a72ac7e0f657844e78559420) for sandbox play.
+
+_Rest of this readme is R-R-S-K's._
+
+---------------------------------------------------------------------
+
+### React Redux Starter Kit
 
 [![Join the chat at https://gitter.im/davezuko/react-redux-starter-kit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/davezuko/react-redux-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/davezuko/react-redux-starter-kit.svg?branch=master)](https://travis-ci.org/davezuko/react-redux-starter-kit?branch=master)
