@@ -10,3 +10,6 @@ For example:
 @import './variables/components';
 @import './themes/default';
 */
+@import '../draft-wizzy/assets/css/example.scss';
+@import '../draft-wizzy/assets/css/bundle.css';
+@import '../../node_modules/draft-js/dist/Draft.css';

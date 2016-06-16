@@ -5,3 +5,8 @@ node_modules
 
 dist
 coverage
+
+/src/static/uploads/*
+!/src/static/uploads/.gitkeep
+
+*.sublime-*

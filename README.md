@@ -2,17 +2,39 @@
 
 This repo combines [draft-wysiwyg](https://github.com/bkniffler/draft-wysiwyg) and [react-redux-starter-kit](https://github.com/davezuko/react-redux-starter-kit) -- [@ commit 165535c](https://github.com/davezuko/react-redux-starter-kit/commit/165535c9f2228106a72ac7e0f657844e78559420) for sandbox play.
 
-_Rest of this readme is R-R-S-K's._
+## Setup
+
+First, setup a private __Draft-Wysiwyg:__
+
+```
+git clone https://github.com/wkw/draft-wysiwyg.git
+cd draft-wysiwyg
+# generate lib directory
+npm run build
+# create global npm link
+npm link
+````
+
+next, clone this repo:
+```
+git clone https://github.com/wkw/react-draft-editor-shell.git
+cd react-draft-editor-shell
+# link to draft-wysiwyg
+npm link draft-wysiwyg
+npm install
+```
+
+You'll get a bunch of unmet peer dependencies from the Draft plugins. We'll fix this later in our own private copy of the plugins repo.
+
+
+---------------------------------------------------------------------
+
+<center>_Rest of this readme is R-R-S-K's._</center>
 
 ---------------------------------------------------------------------
 
 ### React Redux Starter Kit
 
-[![Join the chat at https://gitter.im/davezuko/react-redux-starter-kit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/davezuko/react-redux-starter-kit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://travis-ci.org/davezuko/react-redux-starter-kit.svg?branch=master)](https://travis-ci.org/davezuko/react-redux-starter-kit?branch=master)
-[![dependencies](https://david-dm.org/davezuko/react-redux-starter-kit.svg)](https://david-dm.org/davezuko/react-redux-starter-kit)
-[![devDependency Status](https://david-dm.org/davezuko/react-redux-starter-kit/dev-status.svg)](https://david-dm.org/davezuko/react-redux-starter-kit#info=devDependencies)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 This starter kit is designed to get you up and running with a bunch of awesome new front-end technologies, all on top of a configurable, feature-rich webpack build system that's already setup to provide hot reloading, CSS modules with Sass support, unit testing, code coverage reports, bundle splitting, and a whole lot more.
 
